@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/14/2016 12:40:19 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_BONEMILL">
+			<Text>Bone Mill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BONEMILL_HELP">
+			<Text>Unique Necromancer replacement for the Water Mill. +3 [ICON_Production] Production. Can only be built next to a river</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BONEMILL_STRATEGY">
+			<Text>The Bone Mill provides a significant early bonus to production, allowing for faster troop deployment.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BONEMILL_TEXT">
+			<Text>The Bone Mill, a replacement for the Water Mill, shifts the focus from producing [ICON_FOOD] to enhancing [ICON_PRODUCTION]. Provides a significant early boost to [ICON_PRODUCTION].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_BLOODRIVER">
+			<Text>Blood River</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BLOODRIVER_HELP">
+			<Text>Unique Necromancer replacement for the Aqueduct. +2 [ICON_CULTURE] culture and +2 [ICON_PEACE] faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BLOODRIVER_STRATEGY">
+			<Text>The Blood River enriches the necromancers Faith and Culture. May the streets run red with blood.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BLOODRIVER_TEXT">
+			<Text>The Blood River, a replacement for the Aqueduct, shifts the focus from saving [ICON_FOOD] to enhancing [ICON_CULTURE] and [ICON_PEACE].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_GHOSTLIGHT">
+			<Text>Ghost Light</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GHOSTLIGHT_HELP">
+			<Text>
+				Unique Necromancer replacement for the Lighthouse. +2 [ICON_SCIENCE] science on sea tiles.
+				+1 [ICON_SCIENCE] science from [ICON_RES_FISH]. +1 [ICON_PRODUCTION] from sea resources.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GHOSTLIGHT_STRATEGY">
+			<Text>The Ghost Light explores the depths of the unknown, providing an increase to [ICON_SCIENCE] science, and also improves effeciency of workboats. Must be constructed on the ocean</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GHOSTLIGHT_TEXT">
+			<Text>The Ghost Light, a replacement for the LightHouse, shifts the focus from [ICON_FOOD] to [ICON_SCIENCE].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_BLOODSTORAGE">
+			<Text>Blood Storage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BLOODSTORAGE_HELP">
+			<Text>TODO HELP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BLOODSTORAGE_STRATEGY">
+			<Text>TODO STRATEGY</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BLOODSTORAGE_TEXT">
+			<Text>TODO PEDIA</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_CORRUPTGRAVEYARD">
+			<Text>Corrupt Graveyard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CORRUPTGRAVEYARD_HELP">
+			<Text>TODO HELP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CORRUPTGRAVEYARD_STRATEGY">
+			<Text>TODO STRATEGY</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_CORRUPTGRAVEYARD_TEXT">
+			<Text>TODO PEDIA</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_BUILDING_NECRO_TOWER">
+			<Text>Necro Tower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NECRO_TOWER_HELP">
+			<Text>TODO HELP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NECRO_TOWER_STRATEGY">
+			<Text>TODO STRATEGY</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NECRO_TOWER_PEDIA">
+			<Text>TODO PEDIA</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_BUILDING_CORRUPT_HANGING_GARDEN">
+			<Text>Corrupt Hanging Garden</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_CORRUPT_HANGING_GARDEN_DESC">
+			<Text>TODO</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

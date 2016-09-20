@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/9/2016 5:43:21 PM -->
+<GameData>
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_DEATH</Type>
+			<PrimaryColor>COLOR_PLAYER_GRAY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_DARK_GRAY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_DARK_RED_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+</GameData>
