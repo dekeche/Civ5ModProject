@@ -33,7 +33,7 @@ Corrupt Trade - Unique improvement for gold. (may not be needed)
 
 All unique great person improvemnts should be replaced as well, to enable placement on top of corrupt lands, or to provide the same -3 food.
 
-###Unique Units:
+###Unique units:
 This is only a possibility, but I would like to implement new upgrade paths for units, using the upgrade promotion. Creating a bone dragon seems like a good idea. But this is not necessary, and is more of a streach goal.
 
 ##Playstyle

@@ -7,6 +7,43 @@
 			<Description>TXT_KEY_TRAIT_NECROMANCY</Description>
 			<ShortDescription>TXT_KEY_TRAIT_NECROMANCY_SHORT</ShortDescription>
 			<PopulationUnhappinessModifier>-100</PopulationUnhappinessModifier>
+			<FightWellDamaged>true</FightWellDamaged>
+			<LandUnitMaintenanceModifier>-100</LandUnitMaintenanceModifier>
+			<NavalUnitMaintenanceModifier>-100</NavalUnitMaintenanceModifier>
 		</Row>
 	</Traits>
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_UNDEAD_BODY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_UNDEAD_BODY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_UNDEAD_BODY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_UNDEAD_BODY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_UNDEAD_BODY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_UNDEAD_BODY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_UNDEAD_BODY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_RAISE_THE_DEAD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
 </GameData>

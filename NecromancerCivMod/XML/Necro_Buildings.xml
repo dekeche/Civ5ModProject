@@ -2,6 +2,13 @@
 <!-- Created by ModBuddy on 9/9/2016 5:20:17 PM -->
 
 <GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_NECROSPECIAL</Type>
+			<DefaultBuilding>BUILDING_NECROSPECIAL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_NECROSPECIAL</Description>
+		</Row>
+	</BuildingClasses>
 	<Buildings>
 		<Row>
 			<Type>BUILDING_BONEMILL</Type>
@@ -137,6 +144,48 @@
 			<WonderSplashImage>WonderConceptHangingGardens.dds</WonderSplashImage>
 			<WonderSplashAudio>AS2D_WONDER_SPEECH_THE_HANGING_GARDENS_01</WonderSplashAudio>
 		</Row>
+		<Row>
+			<Type>BUILDING_NECRO_PALACE</Type>
+			<BuildingClass>BUILDINGCLASS_PALACE</BuildingClass>
+			<Cost>0</Cost>
+			<Help>TXT_KEY_BUILDING_PALACE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_PALACE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PALACE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_PALACE_STRATEGY</Strategy>
+			<ArtDefineTag>PALACE</ArtDefineTag>
+			<Capital>true</Capital>
+			<NukeImmune>true</NukeImmune>
+			<MinAreaSize>-1</MinAreaSize>
+			<Defense>250</Defense>
+			<ArtInfoCulturalVariation>true</ArtInfoCulturalVariation>
+			<DisplayPosition>32</DisplayPosition>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+			<FreeBuildingThisCity>BUILDINGCLASS_NECROSPECIAL</FreeBuildingThisCity>
+		</Row>
+		<Row>
+			<Type>BUILDING_NECROSPECIAL</Type>
+			<BuildingClass>BUILDINGCLASS_NECROSPECIAL</BuildingClass>
+			<Cost>-1</Cost>
+			<Help>TXT_KEY_BUILDING_NECROSPECIAL_HELP</Help>
+			<Description>TXT_KEY_BUILDING_NECROSPECIAL</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_NECROSPECIAL_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_NECROSPECIAL_STRATEGY</Strategy>
+			<ArtDefineTag>PALACE</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<MinAreaSize>-1</MinAreaSize>
+			<ArtInfoCulturalVariation>true</ArtInfoCulturalVariation>
+			<DisplayPosition>32</DisplayPosition>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+			<ConquestProb>0</ConquestProb>
+			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+		</Row>
 	</Buildings>
 	<Building_ClassesNeededInCity>
 		<Row>
@@ -253,7 +302,70 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>6</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECRO_PALACE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECRO_PALACE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECRO_PALACE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
 	</Building_YieldChanges>
-	<Building_YieldChangesPerPop></Building_YieldChangesPerPop>
+	<Building_YieldChangesPerPop>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>200</Yield>
+		</Row>
+	</Building_YieldChangesPerPop>
 	<Building_YieldModifiers></Building_YieldModifiers>
+	<Building_UnitCombatProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+	</Building_UnitCombatProductionModifiers>
 </GameData>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/27/2016 9:31:07 AM -->
+<GameData>
+	<GameData>
+		<Language_en_US>
+			<!-- Civilization Text  -->
+			<Row tag="TXT_KEY_PROMOTION_NECRO_UNDEAD_BODY">
+				<Text>Undead Body</Text>
+			</Row>
+			<Row tag="TXT_KEY_PROMOTION_NECRO_UNDEAD_BODY_HELP">
+				<Text>Reduces the units combat ability, allows healing per turn, can move after attacking, ignores terrain cost, can embark.</Text>
+			</Row>
+			<Row tag="TXT_KEY_PROMOTION_NECRO_RAISE_THE_DEAD">
+				<Text>Raise the Dead</Text>
+			</Row>
+			<Row tag="TXT_KEY_PROMOTION_NECRO_RAISE_THE_DEAD_HELP">
+				<Text>Adds one population to a random player controlled city.</Text>
+			</Row>
+		</Language_en_US>
+	</GameData>
+</GameData>
