@@ -149,7 +149,7 @@
 			<BuildingClass>BUILDINGCLASS_PALACE</BuildingClass>
 			<Cost>0</Cost>
 			<Help>TXT_KEY_BUILDING_PALACE_HELP</Help>
-			<Description>TXT_KEY_BUILDING_PALACE</Description>
+			<Description>TXT_KEY_BUILDING_NECRO_PALACE</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PALACE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_PALACE_STRATEGY</Strategy>
 			<ArtDefineTag>PALACE</ArtDefineTag>
@@ -164,7 +164,6 @@
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>19</PortraitIndex>
-			<FreeBuildingThisCity>BUILDINGCLASS_NECROSPECIAL</FreeBuildingThisCity>
 		</Row>
 		<Row>
 			<Type>BUILDING_NECROSPECIAL</Type>

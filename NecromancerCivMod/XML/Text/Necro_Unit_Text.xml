@@ -1,21 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 9/27/2016 9:31:07 AM -->
 <GameData>
-	<GameData>
-		<Language_en_US>
-			<!-- Civilization Text  -->
-			<Row tag="TXT_KEY_PROMOTION_NECRO_UNDEAD_BODY">
-				<Text>Undead Body</Text>
-			</Row>
-			<Row tag="TXT_KEY_PROMOTION_NECRO_UNDEAD_BODY_HELP">
-				<Text>Reduces the units combat ability, allows healing per turn, can move after attacking, ignores terrain cost, can embark.</Text>
-			</Row>
-			<Row tag="TXT_KEY_PROMOTION_NECRO_RAISE_THE_DEAD">
-				<Text>Raise the Dead</Text>
-			</Row>
-			<Row tag="TXT_KEY_PROMOTION_NECRO_RAISE_THE_DEAD_HELP">
-				<Text>Adds one population to a random player controlled city.</Text>
-			</Row>
-		</Language_en_US>
-	</GameData>
+	<Language_en_US>
+		<!-- Unit Text  -->
+		<Row tag="TXT_KEY_UNIT_NECRO_GHOST">
+			<Text>Ghost Scout</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_NECRO_GHOST">
+			<Text>Excellent at exploring, this Unit is not slowed by rough terrain, but is vulnerable to attack. Possesses the immortal body.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NECRO_GHOST_STRATEGY">
+			<Text>This early unit can attack but is weak. However, it can move through difficult terrain as though it were clear (all tiles cost 1mp per hex). Use it for world exploration.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ANTIQUITY_NECRO_GHOST_HEADING">
+			<Text>Ghost Scout</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ANTIQUITY_NECRO_GHOST_TEXT">
+			<Text>A basic scout unit for the necromancer, used to assure that the base warrior unit posseses the undead body trait, required to unlock the necromancer promotions.</Text>
+		</Row>
+			
+		<Row tag="TXT_KEY_UNIT_NECRO_SKELETON">
+			<Text>Skeleton warrior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_NECRO_SKELETON">
+			<Text>Fairly weak early-game military Unit. Only the Necromancer can build it. Possesses the immortal body.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NECRO_SKELETON_STRATEGY">
+			<Text>The Warrior is the earliest combat unit available, useful for battling barbarians, early city defense and limited exploration. Warriors are generally not strong enough to take enemy cities, unless heavily supported by Archers and Catapults - and even then they may simply not have the strength for the task.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ANTIQUITY_NECRO_SKELETON_HEADING">
+			<Text>Skeleton Warrior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ANTIQUITY_NECRO_SKELETON_TEXT">
+			<Text>A basic warrior unit for the necromancer, used to assure that the base warrior unit posseses the undead body trait, required to unlock the necromancer promotions.</Text>
+		</Row>
+
+
+		<!-- Promotion Text  -->
+		<Row tag="TXT_KEY_PROMOTION_NECRO_UNDEAD_BODY">
+			<Text>Undead Body</Text>
+		</Row>
+		<Row tag="TXT_KEY_PROMOTION_NECRO_UNDEAD_BODY_HELP">
+			<Text>Reduces the units combat ability, allows healing per turn, can move after attacking, ignores terrain cost, can embark.</Text>
+		</Row>
+		<Row tag="TXT_KEY_PROMOTION_NECRO_RAISE_THE_DEAD">
+			<Text>Raise the Dead</Text>
+		</Row>
+		<Row tag="TXT_KEY_PROMOTION_NECRO_RAISE_THE_DEAD_HELP">
+			<Text>Adds one population to a random player controlled city.</Text>
+		</Row>
+	</Language_en_US>
 </GameData>

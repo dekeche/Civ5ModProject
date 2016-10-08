@@ -17,11 +17,11 @@
 			<Text>History</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_NECRO_TEXT_1">
-			<Text>R'lyeh is named for the underwater kingdom from which Cthulhu once ruled the planet. Now, the stars are right and Cthulhu has returned to claim what is rightfully his.</Text>
+			<Text>The Lich King has spoken, "Arise my minions!" Now the dead walk the lands, forever haunting the living.</Text>
 		</Row>
 		
 		<Row tag="TXT_KEY_LEADER_RASPUTIN">
-			<Text>Lich Rasputin</Text>
+			<Text>Lich King</Text>
 		</Row>
 
 
@@ -29,22 +29,22 @@
 			<Text>History</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RASPUTIN_TITLES_1">
-			<Text>Great Old One</Text>
+			<Text>Undead King</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RASPUTIN_TITLES_2">
-			<Text>Dread Cthulhu</Text>
+			<Text>No Life King</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RASPUTIN_TEXT_1">
-			<Text>Cthulhu is a Great Old One. Once, long ago, before the damn of Humanity, Cthulhu and his minions ruled the Earth, warring with the Elder Gods. Eventually, a great cataclysm destroyed his cities and buried his kingdom of R'lyeh beneath the waves, driving Cthulhu into a death-like slumber. After waiting untold eons, the stars are right for Cthulhu to reemerge, using his human followers to reclaim what is rightfully his.[NEWLINE][NEWLINE]Cthulhu is a being of vaguely anthropoid outline, but with an octopus-like head whose face was a mass of feelers, a scaly, rubbery-looking body, prodigious claws on hind and fore feet, and long, narrow wings behind.</Text>
+			<Text>The Lich King is the grand leader of all necromancers, the first to bind his soul to the mortal realms, and as such is eternal.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RASPUTIN_LIVED">
 			<Text>Several billion BC-Present</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RASPUTIN_NAME">
-			<Text>Cthulhu</Text>
+			<Text>Rasputin</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RASPUTIN_SUBTITLE">
-			<Text>Ruler of R'lyeh</Text>
+			<Text>Ruler of Death</Text>
 		</Row>
 		
 
@@ -58,13 +58,13 @@
 			<Text>Dark Citadel</Text>
 		</Row>
 		<Row tag="TXT_KEY_SPY_NAME_NECRO1">
-			<Text>Lincon</Text>
+			<Text>Skull Knight</Text>
 		</Row>
 		<Row tag="TXT_KEY_SPY_NAME_NECRO2">
-			<Text>Rik</Text>
+			<Text>Night Ghool</Text>
 		</Row>
 		<Row tag="TXT_KEY_SPY_NAME_NECRO3">
-			<Text>Mort</Text>
+			<Text>Banshi</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

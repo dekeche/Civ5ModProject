@@ -2,6 +2,9 @@
 <!-- Created by ModBuddy on 9/14/2016 12:40:19 PM -->
 <GameData>
 	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_NECRO_PALACE">
+			<Text>Bone Palace</Text>
+		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BONEMILL">
 			<Text>Bone Mill</Text>
 		</Row>
