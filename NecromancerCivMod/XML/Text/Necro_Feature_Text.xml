@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/9/2016 8:07:15 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_NECROMANCY">
+			<Text></Text>
+		</Row>
+	</Language_en_US>
+</GameData>

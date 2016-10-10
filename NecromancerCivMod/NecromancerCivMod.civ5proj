@@ -101,6 +101,16 @@ Civ Trait: Undead Army: No food production, No Population change, 5% boost to pr
         <Type>UpdateDatabase</Type>
         <FileName>XML/Civ_Necro.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/Text/Necro_Feature_Text.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/Necro_Features.xml</FileName>
+      </Action>
     </ModActions>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
@@ -119,6 +129,10 @@ Civ Trait: Undead Army: No food production, No Population change, 5% boost to pr
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
+    <Content Include="XML\Improvement.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="XML\Necro_Buildings.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -128,6 +142,10 @@ Civ Trait: Undead Army: No food production, No Population change, 5% boost to pr
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\Necro_Color.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Necro_Features.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
@@ -148,6 +166,10 @@ Civ Trait: Undead Army: No food production, No Population change, 5% boost to pr
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\Text\Necro_Building_Text.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Text\Necro_Feature_Text.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
