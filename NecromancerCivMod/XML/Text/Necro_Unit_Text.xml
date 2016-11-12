@@ -49,5 +49,18 @@
 		<Row tag="TXT_KEY_PROMOTION_NECRO_RAISE_THE_DEAD_HELP">
 			<Text>Adds one population to a random player controlled city.</Text>
 		</Row>
+		<Row tag="TXT_KEY_PROMOTION_NECRO_ENHANCE_UNIT">
+			<Text>Enhance Unit</Text>
+		</Row>
+		<Row tag="TXT_KEY_PROMOTION_NECRO_ENHANCE_UNIT_HELP">
+			<Text>Upgrades the unit one level, regardless of researched tech.</Text>
+		</Row>
+		<Row tag="TXT_KEY_PROMOTION_NECRO_SUMMON_REINFORCEMENT">
+			<Text>Summon Reinforcement</Text>
+		</Row>
+		<Row tag="TXT_KEY_PROMOTION_NECRO_SUMMON_REINFORCEMENT_HELP">
+			<Text>Summons a warrior!</Text>
+		</Row>
+
 	</Language_en_US>
 </GameData>

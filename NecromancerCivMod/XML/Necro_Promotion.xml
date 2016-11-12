@@ -37,6 +37,38 @@
 			<FriendlyHealChange>100</FriendlyHealChange>
 			<DefenseMod>50</DefenseMod>
 		</Row>
+		<Row>
+			<Type>PROMOTION_NECRO_ENHANCE_UNIT</Type>
+			<Description>TXT_KEY_PROMOTION_NECRO_ENHANCE_UNIT</Description>
+			<Help>TXT_KEY_PROMOTION_NECRO_ENHANCE_UNIT_HELP</Help>
+			<PediaEntry>TXT_KEY_PROMOTION_NECRO_ENHANCE_UNIT</PediaEntry>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_NECRO_UNDEAD_BODY</PromotionPrereqOr1>
+			<OrderPriority>99</OrderPriority>
+			<PortraitIndex>26</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_HEAL</PediaType>
+			<EnemyHealChange>100</EnemyHealChange>
+			<NeutralHealChange>100</NeutralHealChange>
+			<FriendlyHealChange>100</FriendlyHealChange>
+			<DefenseMod>50</DefenseMod>
+		</Row>
+		<Row>
+			<Type>PROMOTION_NECRO_SUMMON_REINFORCEMENT</Type>
+			<Description>TXT_KEY_PROMOTION_NECRO_SUMMON_REINFORCEMENT</Description>
+			<Help>TXT_KEY_PROMOTION_NECRO_SUMMON_REINFORCEMENT_HELP</Help>
+			<PediaEntry>TXT_KEY_PROMOTION_NECRO_SUMMON_REINFORCEMENT</PediaEntry>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_NECRO_UNDEAD_BODY</PromotionPrereqOr1>
+			<OrderPriority>99</OrderPriority>
+			<PortraitIndex>26</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_HEAL</PediaType>
+			<EnemyHealChange>100</EnemyHealChange>
+			<NeutralHealChange>100</NeutralHealChange>
+			<FriendlyHealChange>100</FriendlyHealChange>
+			<DefenseMod>50</DefenseMod>
+		</Row>
 	</UnitPromotions>
 	<UnitPromotions_UnitCombats>
 		<Row>
@@ -151,6 +183,122 @@
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_NECRO_RAISE_THE_DEAD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+		</Row>
+
+
+		<Row>
+			<PromotionType>PROMOTION_NECRO_ENHANCE_UNIT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_ENHANCE_UNIT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_ENHANCE_UNIT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_ENHANCE_UNIT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_ENHANCE_UNIT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_ENHANCE_UNIT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_ENHANCE_UNIT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_ENHANCE_UNIT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_ENHANCE_UNIT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_ENHANCE_UNIT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_ENHANCE_UNIT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_CARRIER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_ENHANCE_UNIT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_ENHANCE_UNIT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_ENHANCE_UNIT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+		</Row>
+
+
+		<Row>
+			<PromotionType>PROMOTION_NECRO_SUMMON_REINFORCEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_SUMMON_REINFORCEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_SUMMON_REINFORCEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_SUMMON_REINFORCEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_SUMMON_REINFORCEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_SUMMON_REINFORCEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_SUMMON_REINFORCEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_SUMMON_REINFORCEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_SUMMON_REINFORCEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_SUMMON_REINFORCEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_SUMMON_REINFORCEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_CARRIER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_SUMMON_REINFORCEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_SUMMON_REINFORCEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NECRO_SUMMON_REINFORCEMENT</PromotionType>
 			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
 		</Row>
 	</UnitPromotions_UnitCombats>

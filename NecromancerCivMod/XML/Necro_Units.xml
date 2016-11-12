@@ -2,33 +2,10 @@
 <!-- Created by ModBuddy on 9/25/2016 6:08:47 PM -->
 <GameData>
 	<Units>
-		<!--<Row>
-			<ID>0</ID>
-			<Class>UNITCLASS_SETTLER</Class>
-			<Type>UNIT_SETTLER</Type>
-			<Moves>2</Moves>
-			<Capture>UNITCLASS_WORKER</Capture>
-			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH_EARLY_GAME_ONLY</CivilianAttackPriority>
-			<HurryCostModifier>20</HurryCostModifier>
-			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_SETTLE</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_SETTLER</Description>
-			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_SETTLER_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_SETTLER_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_SETTLER</Help>
-			<Requirements>TXT_KEY_NO_ACTION_SETTLER_SIZE_LIMIT_HARDCODED</Requirements>
-			<Food>true</Food>
-			<Found>true</Found>
-			<CombatLimit>0</CombatLimit>
-			<UnitArtInfo>ART_DEF_UNIT__SETTLER</UnitArtInfo>
-			<UnitArtInfoCulturalVariation>true</UnitArtInfoCulturalVariation>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
-		</Row>
 		<Row>
 			<Class>UNITCLASS_WORKER</Class>
-			<Type>UNIT_WORKER</Type>
-			<Cost>70</Cost>
+			<Type>UNIT_WORKER_NECRO</Type>
+			<Cost>30</Cost>
 			<Moves>2</Moves>
 			<Capture>UNITCLASS_WORKER</Capture>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
@@ -48,106 +25,151 @@
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 		</Row>
 		<Row>
-			<Class>UNITCLASS_SCOUT</Class>
-			<Type>UNIT_NECRO_GHOST</Type>
-			<Combat>4</Combat>
-			<Cost>25</Cost>
-			<Moves>2</Moves>
-			<CombatClass>UNITCOMBAT_RECON</CombatClass>
-			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_NECRO_GHOST</Description>
-			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_NECRO_GHOST_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_NECRO_GHOST_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_NECRO_GHOST</Help>
-			<NoBadGoodies>true</NoBadGoodies>
-			<Pillage>true</Pillage>
+			<Class>UNITCLASS_WORKBOAT</Class>
+			<Type>UNIT_WORKBOAT_NECRO</Type>
+			<PrereqTech>TECH_SAILING</PrereqTech>
+			<Cost>50</Cost>
+			<Moves>4</Moves>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_WORKER_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_WORK_BOAT</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_WORKBOAT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_WORK_BOAT_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_WORKBOAT</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<ObsoleteTech>TECH_SCIENTIFIC_THEORY</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_ARCHER</GoodyHutUpgradeUnitClass>
+			<PrereqResources>true</PrereqResources>
+			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>10</AdvancedStartCost>
-			<XPValueAttack>3</XPValueAttack>
+			<WorkRate>100</WorkRate>
+			<CombatLimit>0</CombatLimit>
 			<XPValueDefense>3</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_SCOUT</UnitArtInfo>
-			<UnitFlagIconOffset>5</UnitFlagIconOffset>
+			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
+			<UnitArtInfo>ART_DEF_UNIT_WORKBOAT</UnitArtInfo>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<PortraitIndex>2</PortraitIndex>
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
-			<PortraitIndex>5</PortraitIndex>
+			<MoveRate>WOODEN_BOAT</MoveRate>
 		</Row>
-		<Row>
-			<Class>UNITCLASS_WARRIOR</Class>
-			<Type>UNIT_NECRO_SKELETON</Type>
-			<Combat>6</Combat>
-			<Cost>40</Cost>
-			<Moves>2</Moves>
-			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
-			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_NECRO_SKELETON</Description>
-			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_NECRO_SKELETON_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_NECRO_SKELETON_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_NECRO_SKELETON</Help>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_METAL_CASTING</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_SPEARMAN</GoodyHutUpgradeUnitClass>
-			<AdvancedStartCost>10</AdvancedStartCost>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<Conscription>1</Conscription>
-			<UnitArtInfo>ART_DEF_UNIT__WARRIOR</UnitArtInfo>
-			<UnitFlagIconOffset>3</UnitFlagIconOffset>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
-			<PortraitIndex>3</PortraitIndex>
-		</Row>-->
 	</Units>
 	<Unit_AITypes>
 		<Row>
-			<UnitType>UNIT_NECRO_SKELETON</UnitType>
-			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+			<UnitType>UNIT_WORKER_NECRO</UnitType>
+			<UnitAIType>UNITAI_WORKER</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNITCLASS_SCOUT</UnitType>
-			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+			<UnitType>UNIT_WORKBOAT_NECRO</UnitType>
+			<UnitAIType>UNITAI_WORKER_SEA</UnitAIType>
 		</Row>
 	</Unit_AITypes>
-	<Unit_ClassUpgrades>
+	<Unit_Builds>
 		<Row>
-			<UnitType>UNITCLASS_WARRIOR</UnitType>
-			<UnitClassType>UNITCLASS_SPEARMAN</UnitClassType>
+			<UnitType>UNIT_WORKER_NECRO</UnitType>
+			<BuildType>BUILD_ROAD</BuildType>
 		</Row>
-	</Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_WORKER_NECRO</UnitType>
+			<BuildType>BUILD_RAILROAD</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER_NECRO</UnitType>
+			<BuildType>BUILD_FARM</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER_NECRO</UnitType>
+			<BuildType>BUILD_MINE</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER_NECRO</UnitType>
+			<BuildType>BUILD_TRADING_POST</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER_NECRO</UnitType>
+			<BuildType>BUILD_LUMBERMILL</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER_NECRO</UnitType>
+			<BuildType>BUILD_PASTURE</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER_NECRO</UnitType>
+			<BuildType>BUILD_CAMP</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER_NECRO</UnitType>
+			<BuildType>BUILD_PLANTATION</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER_NECRO</UnitType>
+			<BuildType>BUILD_QUARRY</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER_NECRO</UnitType>
+			<BuildType>BUILD_WELL</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER_NECRO</UnitType>
+			<BuildType>BUILD_FORT</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER_NECRO</UnitType>
+			<BuildType>BUILD_REMOVE_JUNGLE</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER_NECRO</UnitType>
+			<BuildType>BUILD_REMOVE_MARSH</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER_NECRO</UnitType>
+			<BuildType>BUILD_REMOVE_FOREST</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER_NECRO</UnitType>
+			<BuildType>BUILD_SCRUB_FALLOUT</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER_NECRO</UnitType>
+			<BuildType>BUILD_REPAIR</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER_NECRO</UnitType>
+			<BuildType>BUILD_REMOVE_ROUTE</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKBOAT_NECRO</UnitType>
+			<BuildType>BUILD_FISHING_BOATS</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKBOAT_NECRO</UnitType>
+			<BuildType>BUILD_OFFSHORE_PLATFORM</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKBOAT_NECRO</UnitType>
+			<BuildType>BUILD_REPAIR</BuildType>
+		</Row>
+	</Unit_Builds>
 	<Unit_Flavors>
 		<Row>
-			<UnitType>UNIT_WARRIOR</UnitType>
-			<FlavorType>FLAVOR_RECON</FlavorType>
-			<Flavor>1</Flavor>
+			<UnitType>UNIT_WORKER_NECRO</UnitType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>30</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_WARRIOR</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>2</Flavor>
+			<UnitType>UNIT_WORKBOAT_NECRO</UnitType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>9</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_WARRIOR</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SCOUT</UnitType>
-			<FlavorType>FLAVOR_RECON</FlavorType>
-			<Flavor>7</Flavor>
+			<UnitType>UNIT_WORKBOAT_NECRO</UnitType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>20</Flavor>
 		</Row>
 	</Unit_Flavors>
 	<Unit_FreePromotions>
 		<Row>
-			<UnitType>UNIT_NECRO_SKELETON</UnitType>
-			<PromotionType>PROMOTION_NECRO_UNDEAD_BODY</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_NECRO_GHOST</UnitType>
-			<PromotionType>PROMOTION_NECRO_UNDEAD_BODY</PromotionType>
+			<UnitType>UNIT_WORKBOAT_NECRO</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE_UNTIL_ASTRONOMY</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
 </GameData>

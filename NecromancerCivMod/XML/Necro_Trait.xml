@@ -11,6 +11,7 @@
 			<LandUnitMaintenanceModifier>-100</LandUnitMaintenanceModifier>
 			<NavalUnitMaintenanceModifier>-100</NavalUnitMaintenanceModifier>
 			<FreeBuilding>BUILDING_NECROSPECIAL</FreeBuilding>
+			<LevelExperienceModifier>-50</LevelExperienceModifier>
 		</Row>
 	</Traits>
 	

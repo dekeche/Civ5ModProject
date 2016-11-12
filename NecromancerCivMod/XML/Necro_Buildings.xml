@@ -145,6 +145,32 @@
 			<WonderSplashAudio>AS2D_WONDER_SPEECH_THE_HANGING_GARDENS_01</WonderSplashAudio>
 		</Row>
 		<Row>
+			<Type>BUILDING_CORRUPT_PETRA</Type>
+			<BuildingClass>BUILDINGCLASS_PETRA</BuildingClass>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<Help>TXT_KEY_WONDER_PETRA_HELP</Help>
+			<Description>TXT_KEY_BUILDING_PETRA</Description>
+			<Civilopedia>TXT_KEY_WONDER_PETRA_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_PETRA_QUOTE</Quote>
+			<ArtDefineTag>PETRA</ArtDefineTag>
+			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<NearbyTerrainRequired>TERRAIN_DESERT</NearbyTerrainRequired>
+			<EnhancedYieldTech>TECH_ARCHAEOLOGY</EnhancedYieldTech>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			<DisplayPosition>2</DisplayPosition>
+			<IconAtlas>EXPANSION_BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<WonderSplashImage>WonderConceptPetra.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_PETRA</WonderSplashAudio>
+		</Row>
+		<Row>
 			<Type>BUILDING_NECRO_PALACE</Type>
 			<BuildingClass>BUILDINGCLASS_PALACE</BuildingClass>
 			<Cost>0</Cost>
@@ -202,6 +228,36 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>5</Flavor>
 		</Row> -->
+		<Row>
+			<BuildingType>BUILDING_CORRUPT_PETRA</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CORRUPT_PETRA</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CORRUPT_PETRA</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CORRUPT_PETRA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CORRUPT_PETRA</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CORRUPT_PETRA</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
 	</Building_Flavors>
 	<Building_ResourceCultureChanges>
 		<!-- <Row>
@@ -215,6 +271,168 @@
 			<CultureChange>2</CultureChange>
 		</Row>-->
 	</Building_ResourceCultureChanges>
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_CORRUPT_PETRA</BuildingType>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>-2</Yield>
+		</Row>
+		<!--Food reduction yield changes-->
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_OASIS</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_FALLOUT</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_REEF</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_GIBRALTAR</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_SRI_PADA</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_ULURU</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_LAKE_VICTORIA</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-8</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_KILIMANJARO</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_ATOLL</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_LAKE</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-5</Yield>
+		</Row>
+
+		<!--Bonusses from yield changes-->
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_FALLOUT</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_REEF</FeatureType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_GIBRALTAR</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_SRI_PADA</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_ULURU</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_LAKE_VICTORIA</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_LAKE_VICTORIA</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_KILIMANJARO</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<FeatureType>FEATURE_ATOLL</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+	</Building_FeatureYieldChanges>
 	<Building_SeaPlotYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_GHOSTLIGHT</BuildingType>
@@ -256,6 +474,11 @@
 		</Row>
 	</Building_ResourceYieldChanges>
 	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-2</Yield>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_BLOODSTORAGE</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
@@ -325,6 +548,91 @@
 		</Row>
 	</Building_YieldChangesPerPop>
 	<Building_YieldModifiers></Building_YieldModifiers>
+	<Building_FreeUnits>
+		<Row>
+			<BuildingType>BUILDING_CORRUPT_PETRA</BuildingType>
+			<UnitType>UNIT_CARAVAN</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+	</Building_FreeUnits>
+	<Building_TerrainYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_CORRUPT_PETRA</BuildingType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>0</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>0</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>0</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<TerrainType>TERRAIN_MOUNTAIN</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>0</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<TerrainType>TERRAIN_OCEAN</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>0</Yield>
+		</Row>
+	</Building_TerrainYieldChanges>
+	<Building_LakePlotYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_LakePlotYieldChanges>
 	<Building_UnitCombatProductionModifiers>
 		<Row>
 			<BuildingType>BUILDING_NECROSPECIAL</BuildingType>

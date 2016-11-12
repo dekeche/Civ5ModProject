@@ -67,6 +67,11 @@
 			<BuildingClassType>BUILDINGCLASS_HANGING_GARDEN</BuildingClassType>
 			<BuildingType>BUILDING_CORRUPT_HANGING_GARDEN</BuildingType>
 		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NECRO</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PETRA</BuildingClassType>
+			<BuildingType>BUILDING_CORRUPT_PETRA</BuildingType>
+		</Row>
 	</Civilization_BuildingClassOverrides>
 	<Civilization_CityNames>
 		<Row>

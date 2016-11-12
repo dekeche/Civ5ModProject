@@ -32,46 +32,73 @@ end
 --Handles unique unit promotions for necro
 --------------------------------------------------------------
 function NecroUnitPromotionCheck(player)
-	local numCities = player:GetNumCities();
-	local id = GameInfo.UnitPromotions.PROMOTION_NECRO_RAISE_THE_DEAD.ID
-	if numCities > 0 then
-		for pUnit in player:Units() do
-			if pUnit:IsHasPromotion(id) then
-				-- Reset promotion state,
-				--	-Lower level/experience
-				--	-Decrease experience, if needed.
-				local level = pUnit:GetLevel();
-				local experience = pUnit:GetExperience();
-				pUnit:SetLevel(level-1);
-				pUnit:SetExperience(experience-10);
-				pUnit:SetHasPromotion(id,false);
-				
-				-- Find random city, add one to population.
-				local iCity = 1;
-				if not numCities == 1 then
-					iCity = math.random(numCities);
+	for pUnit in player:Units() do
+		NecroUnitPromotionPopulation(pUnit,player);
+		NecroUnitPromotionUpgrade(pUnit,player);
+		NecroUnitPromotionDuplicate(pUnit,player);
+	end
+end
+
+function NecroUnitPromotionPopulation(unit,player)
+	local id = GameInfo.UnitPromotions.PROMOTION_NECRO_RAISE_THE_DEAD.ID;
+	if unit:IsHasPromotion(id) then
+		local numCities = player:GetNumCities();
+		if(numCities > 0) then
+			NecroRemovePromotion(id,unit);
+			local iCity = 1;
+			if not numCities == 1 then
+				iCity = math.random(numCities);
+			end
+			local tCity;
+			for pCity in player:Cities() do
+				iCity = (iCity - 1);
+				if iCity == 0 then
+					tCity = pCity;
 				end
-				local tCity;
-				for pCity in player:Cities() do
-					iCity = (iCity - 1);
-					if iCity == 0 then
-						tCity = pCity;
-					end
-				end
-				local pop = tCity:GetPopulation();
-				print(pop);
+			end
+			local pop = tCity:GetPopulation();
+			print(pop);
+			if pop > 5 then
 				tCity:SetPopulation(pop+1,true);
+			else
+				tCity:SetPopulation(pop+2,true);
 			end
 		end
 	end
 end
-
+function NecroUnitPromotionUpgrade(unit,player)
+	local id = GameInfo.UnitPromotions.PROMOTION_NECRO_ENHANCE_UNIT.ID;
+	if unit:IsHasPromotion(id) then
+		print("HasPromotion");
+		NecroRemovePromotion(id,unit);
+		print("RemovedPromotion");
+		local plot = unit:GetPlot();
+		plot:SetImprovement(GameInfo.Improvements.IMPROVEMENT_GOODY_HUT.ID);
+		print("SetGoody");
+		player:ReceiveGoody(plot,GameInfoTypes.GOODY_UPGRADE_UNIT,unit);
+		print("UpgradedUnit")
+	end
+end
+function NecroUnitPromotionDuplicate(unit,player)	
+	local id = GameInfo.UnitPromotions.PROMOTION_NECRO_SUMMON_REINFORCEMENT.ID;
+	if unit:IsHasPromotion(id) then
+		NecroRemovePromotion(id,unit);
+	end
+end
+function NecroRemovePromotion(id,unit)
+	local level = unit:GetLevel();
+	local exp = unit:GetExperience();
+	unit:SetHasPromotion(id,false);
+	unit:SetLevel(level-1);
+	unit:SetExperience(exp-5);
+end
 --------------------------------------------------------------
 --Detect necro city expansion/creation, I assume.
 --Check tile, Check for features/Improvements
 --Change Features/Improvements as needed.
 --------------------------------------------------------------
-function NecroCorruptionSpread(hexX, hexY, player, unknown)	
+function NecroCorruptionSpread(hexX, hexY, player, unknown)
+		
 	local pPlayer = Players[player];
 	if pPlayer:IsAlive() then
 		print("IsAlive");
@@ -82,22 +109,8 @@ function NecroCorruptionSpread(hexX, hexY, player, unknown)
 				local gridPosX, gridPosY = ToGridFromHex( hexX, hexY );
 				local pPlot = Map.GetPlot(gridPosX,gridPosY);
 				FeatureType = pPlot:GetFeatureType();
-				print(GameInfo.Features.FEATURE_FOREST_CORRUPT.ID);
 				if FeatureType == FeatureTypes.NO_FEATURE then 
-					pPlot:SetFeatureType(GameInfo.Features.FEATURE_CORRUPTION.ID, -1);
-				elseif FeatureType == FeatureTypes.FEATURE_JUNGLE then
-					pPlot:SetFeatureType(GameInfo.Features.FEATURE_JUNGLE_CORRUPT.ID, -1);
-				elseif FeatureType == FeatureTypes.FEATURE_MARSH then
-					pPlot:SetFeatureType(GameInfo.Features.FEATURE_MARSH_CORRUPT.ID, -1);
-				elseif FeatureType == FeatureTypes.FEATURE_OASIS then
-					pPlot:SetFeatureType(GameInfo.Features.FEATURE_OASIS_CORRUPT.ID, -1);
-				elseif FeatureType == FeatureTypes.FEATURE_FLOOD_PLAINS then
-					pPlot:SetFeatureType(GameInfo.Features.FEATURE_FLOOD_PLAINS_CORRUPT.ID, -1);
-				elseif FeatureType == FeatureTypes.FEATURE_FOREST then
-					pPlot:SetFeatureType(GameInfo.Features.FEATURE_FOREST_CORRUPT.ID, -1);
-				elseif FeatureType == FeatureTypes.FEATURE_FALLOUT then
-				elseif FeatureType == FeatureTypes.FEATURE_ICE then
-				else
+					pPlot:SetFeatureType(GameInfo.Features.FEATURE_FALLOUT.ID, -1);
 				end
 			end
 		end
